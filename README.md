@@ -4,8 +4,7 @@ This repository is an authentic, day-by-day log of my technical progress as I tr
 ### 📂 Repository Guide
 To keep my learning organized, I’ve structured this repository by technology and documentation type:
 
-#### Daily_Logs/:
-Detailed markdown files documenting my daily agenda, roadmap research, and networking progress.
+#### Daily_Logs/: Detailed markdown files documenting my daily agenda, roadmap research, and networking progress.
 
 Python/: Pure logic implementation. Contains my daily problem-solving scripts and arithmetic challenges.
 
