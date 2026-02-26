@@ -16,3 +16,10 @@ Solved 4 progressive problems focusing on:
 2. Integer arithmetic with type conversion
 3. Simple future-state logic (`age + 5`)
 4. Real-world float math: **18% GST calculator**
+
+## Day 2 agenda:
+
+* **Type Conversion:** Mastering implicit vs. explicit casting to handle data types effectively.
+* **Relational Operators:** Using `<`, `>`, `==`, `!=`, `<=`, `>=` to compare values.
+* **Logical Operators:** Combining conditions using `AND` (`&&`), `OR` (`||`), and `NOT` (`!`).
+* **Conditional Statements:** Implementing `if`, `else if`, `else`, and `switch` for decision-making.
