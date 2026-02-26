@@ -10,8 +10,8 @@ Detailed markdown files documenting my daily agenda, roadmap research, and netwo
 #### Python/: 
 Pure logic implementation. Contains my daily problem-solving scripts and arithmetic challenges.
 
-#### SQL/: (
-Coming Soon) Database queries, data cleaning, and relational database management.
+#### SQL/:
+(Coming Soon) Database queries, data cleaning, and relational database management.
 
 #### Excel/: 
 (Coming Soon) Advanced formulas, pivot tables, and data cleaning tasks.
