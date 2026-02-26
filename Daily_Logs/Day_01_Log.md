@@ -1,4 +1,4 @@
-### 🗓️ [26 - thursday - feb - 2026] | data-analyst-journey
+## 🗓️ [26 - thursday - feb - 2026] | data-analyst-journey
 🎥 Watched a Telugu breakdown on becoming a Data Analyst in 5-6 months + internship strategy.  
 🔗 Roadmap: [beyondbasics.dev/roadmaps/data-analyst](https://beyondbasics.dev/roadmaps/data-analyst)
 
@@ -17,7 +17,7 @@ Solved 4 progressive problems focusing on:
 3. Simple future-state logic (`age + 5`)
 4. Real-world float math: **18% GST calculator**
 
-## Day 2 agenda:
+### Day 2 agenda:
 
 * **Type Conversion:** Mastering implicit vs. explicit casting to handle data types effectively.
 * **Relational Operators:** Using `<`, `>`, `==`, `!=`, `<=`, `>=` to compare values.
