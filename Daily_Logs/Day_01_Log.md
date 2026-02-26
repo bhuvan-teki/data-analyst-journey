@@ -26,7 +26,7 @@ Handling Data Types (Transitioning from Strings to Numeric types).
 ## Practical Problem Solving:
 I developed a script containing 4 progressive challenges. You can view the full source code here:
 
-🔗 https://github.com/bhuvan-teki/data-analyst-journey/blob/main/Daily_Logs/Day_01_Log.md
+🔗 https://github.com/bhuvan-teki/data-analyst-journey/blob/main/Python/Day_01_Problems.py
 
 Problem 1: String Formatting and User Input.
 
