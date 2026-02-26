@@ -4,7 +4,7 @@ Date: February 26, 2026
 Track: Data Analyst Journey (5-6 Month Roadmap)
 
 ### 🗺️ Strategy & Research
-Roadmap Selection: Evaluated the Beyond Basics Data Analyst Roadmap to align my 6-month learning path.
+Roadmap Selection: Evaluated the Beyond Basics Data Analyst Roadmap to align my 6-month learning path: https://beyondbasics.dev/roadmaps/data-analyst
 
 Industry Insights: Watched a detailed breakdown of the Data Analyst ecosystem (Telugu) to understand internship strategies and the current hiring market.
 
