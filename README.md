@@ -4,12 +4,17 @@ This repository is an authentic, day-by-day log of my technical progress as I tr
 ### 📂 Repository Guide
 To keep my learning organized, I’ve structured this repository by technology and documentation type:
 
-#### Daily_Logs/: Detailed markdown files documenting my daily agenda, roadmap research, and networking progress.
+#### Daily_Logs/: 
+Detailed markdown files documenting my daily agenda, roadmap research, and networking progress.
 
-Python/: Pure logic implementation. Contains my daily problem-solving scripts and arithmetic challenges.
+#### Python/: 
+Pure logic implementation. Contains my daily problem-solving scripts and arithmetic challenges.
 
-SQL/: (Coming Soon) Database queries, data cleaning, and relational database management.
+#### SQL/: (
+Coming Soon) Database queries, data cleaning, and relational database management.
 
-Excel/: (Coming Soon) Advanced formulas, pivot tables, and data cleaning tasks.
+#### Excel/: 
+(Coming Soon) Advanced formulas, pivot tables, and data cleaning tasks.
 
-Projects/: End-to-end analysis projects where I combine Python, SQL, and Visualization tools.
+#### Projects/: 
+End-to-end analysis projects where I combine Python, SQL, and Visualization tools.
