@@ -43,4 +43,4 @@ Relational Operators: Comparison logic (<, >, ==, !=).
 
 Logical Operators: Complex conditions (AND, OR, NOT).
 
-Control Flow: Implementing if/else and switch statements for decision-making.
+Conditional Statements: Implementing if/else statements for decision-making.
