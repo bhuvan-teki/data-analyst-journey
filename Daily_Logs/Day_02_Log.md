@@ -1,4 +1,4 @@
-## 📅 Day 02: Logic, String Slicing & Control Flow
+## 🗓️ Day 02: Logic, String Slicing & Control Flow
 Date: February 27, 2026
 
 Track: Data Analyst Journey
