@@ -27,9 +27,9 @@ Branching Logic: Implemented if-else blocks to create dynamic program paths.
 Indentation: Mastered Python's 4-space standard to define code blocks—a critical skill for clean, readable code.
 
 ## 📂 Proof of Learning
-I documented the full breakdown of today's technical notes here: [Untitled_Document_onlinenotepad.io.docx](https://github.com/user-attachments/files/25613028/Untitled_Document_onlinenotepad.io.docx)
+I documented the full breakdown of today's technical notes here: [day2work.pdf](https://github.com/user-attachments/files/25613130/day2work.pdf)
 
-## 📄 Technical Notes: Day 02 Summary
+## 📄 Technical Notes: Day 02 Summary 
 
 ### 🚀 Upcoming Challenges (Targeting "Pro" Level)
 Based on my learning portal, I have identified a roadmap of complex problems to solve next. These problems transition from basic syntax to analytical problem-solving.
