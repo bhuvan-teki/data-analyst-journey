@@ -1,4 +1,4 @@
-## 📅 Day 01: The Foundation & Roadmapping
+## 🗓️ Day 01: The Foundation & Roadmapping
 Date: February 26, 2026
 
 Track: Data Analyst Journey (5-6 Month Roadmap)
