@@ -1,6 +1,9 @@
 ## 📊 Data Analyst Journey
 This repository is an authentic, day-by-day log of my technical progress as I transition into Data Analytics. I am documenting my logic, code, and networking strategy to build a "Proof of Work" portfolio.
 
+## 🔄 Status: Strategic Pivot (April - 25 - 2026)
+I am currently prioritizing **SQL and DBMS fundamentals**. I realized that mastering data retrieval is the essential first step before returning to Python automation.
+
 ### 📂 Repository Guide
 To keep my learning organized, I’ve structured this repository by technology and documentation type:
 
