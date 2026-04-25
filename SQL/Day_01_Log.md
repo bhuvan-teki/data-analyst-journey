@@ -1,65 +1,78 @@
+
 # 📅 Day 01: SQL Foundations & DBMS Theory
 **Date:** April 26, 2026  
 **Track:** Data Analyst Journey (SQL Phase)
 
 ## 📝 Executive Summary
-Today, I officially restarted my Data Analyst journey with a "Data-First" strategy. After a 2-month gap, I realized that mastering **Database Management Systems (DBMS)** is the essential foundation before moving into complex Python automation. Today’s session covered the 3 V’s of data, the 9 types of database architectures, and core SQLite syntax.
+Today, I officially pivoted my learning strategy to prioritize **Database Management Systems (DBMS)** and **SQL**. After a gap in consistency, I am rebuilding my foundation by mastering how data is structured, stored, and retrieved before returning to Python automation.
 
 ---
 
 ## 🏛️ Part 1: DBMS & Data Theory
-To understand how to query data, I first studied the environment where data lives.
+To effectively query data, I first mastered the ecosystem where it resides.
 
 ### 1. The 3 V's of Data
-I evaluated the characteristics that determine which database a company chooses:
-* **Volume:** The massive scale of data being stored and processed.
-* **Velocity:** The speed at which data is generated and analyzed in real-time.
-* **Variety:** Managing structured (tables), semi-structured (JSON), and unstructured (images/text) data.
+I evaluated the core characteristics of data that drive organizational decision-making:
+* **Volume:** The massive scale of data generated and stored.
+* **Velocity:** The speed at which data is generated and processed in real-time.
+* **Variety:** Managing structured (tables), unstructured (images), and semi-structured (JSON) data.
 
-### 2. Database Models & Architectures
-I researched 9 different database types to understand their specific use cases:
-* **Relational (RDBMS):** Organized into tables linked by Primary and Foreign Keys (Current Focus).
-* **Hierarchical:** A tree-like structure where each child has only one parent.
-* **Network:** A web-like model allowing many-to-many relationships.
-* **NoSQL:** Non-tabular structures ideal for unstructured data and horizontal scalability.
-* **Cloud & Personal:** Specialized environments like AWS/GCP for scale, or SQLite for local development.
+### 2. Database Architectures
+I researched 9 types of databases, focusing on how their structures impact performance:
+* **Relational (RDBMS):** Data stored in tables linked by unique identities (Primary Keys).
+* **NoSQL:** A non-relational mechanism for flexible, high-availability data storage.
+* **Hierarchical/Network:** Legacy tree-like or web-like structures for specific ranked or many-to-many data.
 
 ---
 
 ## ⚙️ Part 2: Technical Fundamentals (SQLite)
-I have selected **SQLite** as my primary tool for this phase because it is a zero-configuration, lightweight RDBMS ideal for local data analysis.
+I am using **SQLite** for its lightweight, zero-configuration efficiency.
 
 ### 1. Data Types & Integrity
-I am focusing on assigning the correct data types to ensure "Data Integrity":
-* **TEXT:** For string data (names, categories).
-* **INTEGER:** For whole numbers (IDs, ages, wins).
-* **REAL:** For floating-point decimals (height, weight, financial values).
-
-### 2. Constraints (Security Rules)
-* **PRIMARY KEY:** Ensures every record is unique and identifiable.
-* **NOT NULL:** Prevents critical data from being left blank.
-* **UNIQUE:** Stops duplicate entries in specific columns.
+I applied strict type definitions to ensure "Data Integrity" in my local environment:
+* **TEXT:** For string-based data like Names.
+* **INTEGER:** For whole numbers like Age and Records.
+* **REAL:** For precise decimals like Height and Weight.
 
 ---
 
-## 💻 Part 3: SQL Syntax Mastery (CRUD)
-I practiced the four fundamental operations that power all modern data applications:
+## 💻 Part 3: Practical Implementation
+I successfully implemented Data Definition (DDL) and Data Manipulation (DML) using an MMA dataset.
 
-| Operation | SQL Command | Purpose |
-| :--- | :--- | :--- |
-| **CREATE** | `CREATE TABLE` | Building the structured "skeleton" of the data. |
-| **INSERT** | `INSERT INTO` | Populating the table with "cargo" (values). |
-| **READ** | `SELECT` | Retrieving and displaying data. |
-| **FILTER** | `WHERE` | Slicing data based on specific conditions. |
+### 1. Table Creation
+```sql
+CREATE TABLE MMA (
+  Name TEXT,
+  age INTEGER,
+  record INTEGER,
+  height REAL,
+  weight REAL
+);
+```
+
+### 2. Data Entry
+```sql
+INSERT INTO MMA (Name, age, record, height, weight) 
+VALUES ('Conor McGregor', 35, 22, 1.75, 70.3);
+```
+
+### 3. Data Retrieval & Filtering
+I practiced extracting specific insights using the `SELECT` statement and `WHERE` clause logic.
+```sql
+SELECT name, record
+FROM MMA
+WHERE age < 25;
+```
 
 ---
 
 ## 🚀 Reflection
-By documenting the "Why" behind my pivot and the "How" behind my code, I am building a transparent **Proof of Work** portfolio. Today wasn't just about learning syntax; it was about understanding the data ecosystem that I will eventually manage as a professional analyst.
+This restart is about building a "Proof of Work" portfolio that demonstrates both technical skill and strategic thinking. By documenting the theory alongside the code, I am proving my value as a Data Analyst who understands the full data lifecycle.
 
 ---
 
-### **Next Steps:**
-* [ ] Create a practical `.sql` script implementing an `MMA_CONTENDERS` table.
-* [ ] Practice complex `WHERE` clause filters (Relational Operators).
-* [ ] Explore Aggregate functions (`COUNT`, `SUM`, `AVG`).
+### **Next Goals:**
+* [ ] Master the rest of CRUD: `UPDATE` and `DELETE`.
+* [ ] Explore SQL Constraints (`PRIMARY KEY`, `NOT NULL`, `UNIQUE`).
+* [ ] Practice Aggregate functions (`COUNT`, `SUM`, `AVG`).
+```
