@@ -14,7 +14,7 @@ Today I focused on Aptitude preparation, specifically **Number Systems**, **Divi
 I practiced several aptitude questions to strengthen my understanding of these concepts. 
 
 **Questions solved today:**
-1. Find the value of: $\frac{i^{123} + i^{124} + i^{125} + i^{126}}{i^{76} + i^{77} + i^{78} + i^{79}}$
+1. Find the value of: $\frac{i^{123} + i^{124} + i^{125} + i^{126}}{i^{76} + i^{77} + i^{78} + i^{79}}$ = ?
 2. What is the rational form of 1.1111111...?
 3. What is the rational form of 1.323232323...?
 4. Is the given number divisible by 11? (2122356512)
