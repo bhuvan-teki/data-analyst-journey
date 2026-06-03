@@ -1,755 +1,425 @@
-# Numbers Daily Practice 1
+# Quantitative Aptitude - Daily Practice Set 1: Number Systems
 
-## Q1. Find n if (-1)^n + (-1)^(16n) = 0
-
-Options:
-- Any odd natural number
-- Any even natural number
-- Any integer
-- None of these
-
-Answer: Any odd natural number
-
-Calculation:
-
-Since 16n is always even:
-
-(-1)^(16n) = 1
-
-So,
-
-(-1)^n + 1 = 0
-
-(-1)^n = -1
-
-This happens only when n is odd.
-
-Therefore, n = any odd natural number.
+This document contains a structured log of my daily problem-solving practice, focusing on Number Systems, Divisibility Rules, Prime Numbers, and Algebraic logic.
 
 ---
 
-## Q2. When 89122 is divided by 4, what is the remainder?
+### 📝 Question 1: Find `n` if `(-1)^n + (-1)^(16n) = 0`
+* **Options:**
+  * A) Any odd natural number
+  * B) Any even natural number
+  * C) Any integer
+  * D) None of these
 
-Options:
-- 1
-- 2
-- 3
-- 5
-
-Answer: 2
-
-Calculation:
-
-For division by 4, check the last two digits.
-
-Last two digits = 22
-
-22 ÷ 4 = 5 remainder 2
-
-Therefore, 89122 gives remainder 2 when divided by 4.
+> **✅ Answer:** Any odd natural number
+>
+> **🔍 Explanation:**
+> Since `16n` is always an even number, `(-1)^(16n) = 1`.
+> Substituting this into the equation: `(-1)^n + 1 = 0` ➔ `(-1)^n = -1`.
+> This condition is satisfied only when `n` is an odd number. Therefore, `n` can be any odd natural number.
 
 ---
 
-## Q3. Find C and D if C409530D is divisible by 12 and 10. C and D are single digit numbers. C cannot be 0 and C should be the least number.
+### 📝 Question 2: When 89122 is divided by 4, what is the remainder?
+* **Options:**
+  * A) 1
+  * B) 2
+  * C) 3
+  * D) 5
 
-Options:
-- 3,0
-- 4,0
-- 5,0
-- 6,0
-
-Answer: No valid option / Question issue
-
-Calculation:
-
-For divisibility by 10:
-
-Last digit must be 0.
-
-So,
-
-D = 0
-
-Number becomes:
-
-C4095300
-
-For divisibility by 12:
-
-Number must be divisible by both 3 and 4.
-
-Check divisibility by 4:
-
-Last two digits = 00
-
-00 is divisible by 4.
-
-Now check divisibility by 3:
-
-Sum of digits:
-
-C + 4 + 0 + 9 + 5 + 3 + 0 + 0
-
-= C + 21
-
-C + 21 must be divisible by 3.
-
-Check options:
-
-C = 3 → 3 + 21 = 24 divisible by 3
-
-C = 4 → 4 + 21 = 25 not divisible by 3
-
-C = 5 → 5 + 21 = 26 not divisible by 3
-
-C = 6 → 6 + 21 = 27 divisible by 3
-
-Least valid C = 3
-
-So answer should be:
-
-C = 3, D = 0
-
-Correct option: 3,0
+> **✅ Answer:** 2
+>
+> **🔍 Explanation:**
+> According to the divisibility rule for 4, we only need to check the last two digits.
+> The last two digits are `22`. 
+> `22 ÷ 4 = 5` with a remainder of `2`. 
+> Therefore, 89122 gives a remainder of 2 when divided by 4.
 
 ---
 
-## Q4. Proper fraction value will be:
+### 📝 Question 3: Find `C` and `D` if `C409530D` is divisible by 12 and 10. (C and D are single-digit numbers, C ≠ 0, and C should be the least possible number).
+* **Options:**
+  * A) 3, 0
+  * B) 4, 0
+  * C) 5, 0
+  * D) 6, 0
 
-Options:
-- Is equal to 0
-- Greater than 1
-- Lies between 0 to 1
-- Can't be determined
-
-Answer: Lies between 0 to 1
-
-Explanation:
-
-In a proper fraction:
-
-Numerator < Denominator
-
-Example:
-
-2/5 = 0.4
-
-0.4 lies between 0 and 1.
-
-Therefore, a proper fraction lies between 0 and 1.
+> **✅ Answer:** 3, 0
+>
+> **🔍 Explanation:**
+> * **Divisibility by 10:** The last digit must be 0. So, `D = 0`. The number becomes `C4095300`.
+> * **Divisibility by 12:** The number must be divisible by both 3 and 4.
+>   * *Check 4:* The last two digits are `00`, which is divisible by 4.
+>   * *Check 3:* The sum of the digits must be a multiple of 3.
+>     Sum = `C + 4 + 0 + 9 + 5 + 3 + 0 + 0 = C + 21`
+> Let's test the options for the least value of C:
+> * `C = 3` ➔ 3 + 21 = 24 (Divisible by 3)
+> * `C = 4` ➔ 4 + 21 = 25 (Not divisible)
+> 
+> The least valid value is `C = 3`. Therefore, C = 3, D = 0.
 
 ---
 
-## Q5. A person got twice as many sums wrong as he got right. If he attempted 48 sums in all, how many did he solve correctly?
+### 📝 Question 4: A proper fraction value will be:
+* **Options:**
+  * A) Is equal to 0
+  * B) Greater than 1
+  * C) Lies between 0 to 1
+  * D) Can't be determined
 
-Options:
-- 12
-- 24
-- 16
-- 21
-
-Answer: 16
-
-Calculation:
-
-Let correct answers = x
-
-Wrong answers = 2x
-
-Total attempted = 48
-
-So,
-
-x + 2x = 48
-
-3x = 48
-
-x = 48 / 3
-
-x = 16
-
-Therefore, he solved 16 correctly.
+> **✅ Answer:** Lies between 0 to 1
+>
+> **🔍 Explanation:**
+> By definition, a proper fraction is one where the numerator is strictly less than the denominator (e.g., `2/5 = 0.4`). Because the numerator is smaller, the overall value will always be greater than 0 but strictly less than 1.
 
 ---
 
-## Q6. How many prime numbers are less than 40?
+### 📝 Question 5: A person got twice as many sums wrong as he got right. If he attempted 48 sums in all, how many did he solve correctly?
+* **Options:**
+  * A) 12
+  * B) 24
+  * C) 16
+  * D) 21
 
-Options:
-- 10
-- 11
-- 12
-- 13
-
-Answer: 12
-
-Prime numbers less than 40:
-
-2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37
-
-Count = 12
-
-Therefore, there are 12 prime numbers less than 40.
-
----
-
-## Q7. Calculate i^14.
-
-Options:
-- 1
-- 0
-- -1
-- None
-
-Answer: -1
-
-Calculation:
-
-Powers of i repeat every 4:
-
-i^1 = i
-
-i^2 = -1
-
-i^3 = -i
-
-i^4 = 1
-
-Now divide power by 4:
-
-14 ÷ 4 = 3 remainder 2
-
-So,
-
-i^14 = i^2
-
-i^2 = -1
-
-Therefore, i^14 = -1.
+> **✅ Answer:** 16
+>
+> **🔍 Explanation:**
+> Let the number of correct answers = `x`.
+> The number of wrong answers = `2x`.
+> Total attempted = 48.
+> `x + 2x = 48`
+> `3x = 48` ➔ `x = 16`. 
+> He solved 16 sums correctly.
 
 ---
 
-## Q8. Identify a non-prime number among the following.
+### 📝 Question 6: How many prime numbers are less than 40?
+* **Options:**
+  * A) 10
+  * B) 11
+  * C) 12
+  * D) 13
 
-Options:
-- 19
-- 29
-- 121
-- 151
-
-Answer: 121
-
-Calculation:
-
-121 = 11 × 11
-
-So, 121 has factors other than 1 and itself.
-
-Therefore, 121 is not a prime number.
+> **✅ Answer:** 12
+>
+> **🔍 Explanation:**
+> The prime numbers less than 40 are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37.
+> Counting them up gives a total of 12 prime numbers.
 
 ---
 
-## Q9. The number of employees in SoftSolutions is less than 300 and a prime number. What is the possible ratio of male to female employees?
+### 📝 Question 7: Calculate `i^14`.
+* **Options:**
+  * A) 1
+  * B) 0
+  * C) -1
+  * D) None
 
-Options:
-- 61:58
-- 45:40
-- 100:99
-- 73:50
-
-Answer: 100:99
-
-Calculation:
-
-Total employees = Male + Female
-
-Check each ratio:
-
-61 + 58 = 119
-
-119 = 7 × 17, not prime
-
-45 + 40 = 85
-
-85 = 5 × 17, not prime
-
-100 + 99 = 199
-
-199 is prime
-
-73 + 50 = 123
-
-123 = 3 × 41, not prime
-
-Therefore, possible ratio is 100:99.
+> **✅ Answer:** -1
+>
+> **🔍 Explanation:**
+> The powers of `i` repeat in cycles of 4:
+> `i^1 = i`, `i^2 = -1`, `i^3 = -i`, `i^4 = 1`.
+> Divide the power by 4 to find the position in the cycle: `14 ÷ 4 = 3` with a remainder of `2`.
+> Therefore, `i^14 = i^2`. Since `i^2 = -1`, the answer is -1.
 
 ---
 
-## Q10. If 72 exactly divides 42573x, what is the smallest value for x?
+### 📝 Question 8: Identify a non-prime number among the following.
+* **Options:**
+  * A) 19
+  * B) 29
+  * C) 121
+  * D) 151
 
-Options:
-- 6
-- 7
-- 8
-- 2
-
-Answer: 6
-
-Calculation:
-
-72 = 8 × 9
-
-So number must be divisible by both 8 and 9.
-
-Number = 42573x
-
-Check divisibility by 8:
-
-Last three digits = 73x
-
-Options:
-
-736 ÷ 8 = 92 exactly
-
-737 not divisible by 8
-
-738 not divisible by 8
-
-732 not divisible by 8
-
-So x = 6 works for divisibility by 8.
-
-Check divisibility by 9:
-
-Sum of digits:
-
-4 + 2 + 5 + 7 + 3 + 6 = 27
-
-27 is divisible by 9.
-
-Therefore, x = 6.
+> **✅ Answer:** 121
+>
+> **🔍 Explanation:**
+> A prime number has only two factors: 1 and itself. 
+> 121 can be factored as `11 × 11`. Because it has factors other than 1 and itself, 121 is a composite (non-prime) number.
 
 ---
 
-## Q11. When 4560 is divided by 8, what is the remainder?
+### 📝 Question 9: The number of employees in SoftSolutions is less than 300 and a prime number. What is the possible ratio of male to female employees?
+* **Options:**
+  * A) 61 : 58
+  * B) 45 : 40
+  * C) 100 : 99
+  * D) 73 : 50
 
-Options:
-- 0
-- 1
-- 2
-- 3
-
-Answer: 0
-
-Calculation:
-
-For divisibility by 8, check last three digits.
-
-Last three digits = 560
-
-560 ÷ 8 = 70
-
-Remainder = 0
-
-Therefore, 4560 gives remainder 0 when divided by 8.
+> **✅ Answer:** 100 : 99
+>
+> **🔍 Explanation:**
+> The total number of employees is the sum of the ratio components. We need to find the sum that results in a prime number less than 300.
+> * A) 61 + 58 = 119 (`7 × 17` - Not prime)
+> * B) 45 + 40 = 85 (`5 × 17` - Not prime)
+> * C) 100 + 99 = 199 (**Prime number**)
+> * D) 73 + 50 = 123 (`3 × 41` - Not prime)
+> 
+> Therefore, 100:99 is the only possible ratio.
 
 ---
 
-## Q12. Which of the following is divisible by 4?
+### 📝 Question 10: If 72 exactly divides `42573x`, what is the smallest value for `x`?
+* **Options:**
+  * A) 6
+  * B) 7
+  * C) 8
+  * D) 2
 
-Options:
-- 4646652
-- 47554
-- 466654
-- 499774
-
-Answer: 4646652
-
-Calculation:
-
-For divisibility by 4, check last two digits.
-
-4646652 → last two digits = 52
-
-52 ÷ 4 = 13 exactly
-
-47554 → last two digits = 54, not divisible by 4
-
-466654 → last two digits = 54, not divisible by 4
-
-499774 → last two digits = 74, not divisible by 4
-
-Therefore, 4646652 is divisible by 4.
+> **✅ Answer:** 6
+>
+> **🔍 Explanation:**
+> For a number to be divisible by 72, it must be divisible by both 8 and 9 (since `8 × 9 = 72` and they are co-prime).
+> * **Divisibility by 8:** The last three digits (`73x`) must be divisible by 8. Let's test the options: `736 ÷ 8 = 92` (Divides exactly). `x = 6` works.
+> * **Divisibility by 9:** The sum of all digits must be divisible by 9. 
+>   `4 + 2 + 5 + 7 + 3 + 6 = 27`, which is divisible by 9.
+> Therefore, `x = 6`.
 
 ---
 
-## Q13. Which number is divisible by 3?
+### 📝 Question 11: When 4560 is divided by 8, what is the remainder?
+* **Options:**
+  * A) 0
+  * B) 1
+  * C) 2
+  * D) 3
 
-Options:
-- 1235
-- 1237
-- 1239
-- 1241
-
-Answer: 1239
-
-Calculation:
-
-For divisibility by 3, sum of digits must be divisible by 3.
-
-1235:
-
-1 + 2 + 3 + 5 = 11
-
-Not divisible by 3
-
-1237:
-
-1 + 2 + 3 + 7 = 13
-
-Not divisible by 3
-
-1239:
-
-1 + 2 + 3 + 9 = 15
-
-15 is divisible by 3
-
-1241:
-
-1 + 2 + 4 + 1 = 8
-
-Not divisible by 3
-
-Therefore, 1239 is divisible by 3.
+> **✅ Answer:** 0
+>
+> **🔍 Explanation:**
+> According to the divisibility rule for 8, check the last three digits (`560`).
+> `560 ÷ 8 = 70` with a remainder of 0. 
+> Therefore, 4560 is perfectly divisible by 8, leaving a remainder of 0.
 
 ---
 
-## Q14. What is the rational form of 3.66666666...?
+### 📝 Question 12: Which of the following is divisible by 4?
+* **Options:**
+  * A) 4646652
+  * B) 47554
+  * C) 466654
+  * D) 499774
 
-Options:
-- 2/3
-- 11/3
-- 2/7
-- 1/9
-
-Answer: 11/3
-
-Calculation:
-
-Let x = 3.6666...
-
-The repeating part is 0.6666...
-
-0.6666... = 2/3
-
-So,
-
-3.6666... = 3 + 2/3
-
-= 9/3 + 2/3
-
-= 11/3
-
-Therefore, rational form is 11/3.
+> **✅ Answer:** 4646652
+>
+> **🔍 Explanation:**
+> A number is divisible by 4 if its last two digits are divisible by 4.
+> * A) Ends in `52` ➔ `52 ÷ 4 = 13` (**Divisible**)
+> * B) Ends in `54` ➔ Not divisible by 4
+> * C) Ends in `54` ➔ Not divisible by 4
+> * D) Ends in `74` ➔ Not divisible by 4
 
 ---
 
-## Q15. What is the smallest value that can replace * in 197*5462 to make it divisible by 9?
+### 📝 Question 13: Which number is divisible by 3?
+* **Options:**
+  * A) 1235
+  * B) 1237
+  * C) 1239
+  * D) 1241
 
-Options:
-- 9
-- 2
-- 4
-- 1
-
-Answer: 2
-
-Calculation:
-
-For divisibility by 9, sum of digits must be divisible by 9.
-
-Number = 197*5462
-
-Sum of known digits:
-
-1 + 9 + 7 + 5 + 4 + 6 + 2 = 34
-
-Now add *.
-
-34 + * must be divisible by 9.
-
-Nearest multiple of 9 after 34 is 36.
-
-So,
-
-34 + * = 36
-
-* = 2
-
-Therefore, smallest value is 2.
+> **✅ Answer:** 1239
+>
+> **🔍 Explanation:**
+> A number is divisible by 3 if the sum of its digits is a multiple of 3.
+> * 1235: `1+2+3+5 = 11` (No)
+> * 1237: `1+2+3+7 = 13` (No)
+> * 1239: `1+2+3+9 = 15` (**Yes**, 15 is divisible by 3)
+> * 1241: `1+2+4+1 = 8` (No)
 
 ---
 
-## Q16. Form of a complex number commonly used?
+### 📝 Question 14: What is the rational form of 3.66666666...?
+* **Options:**
+  * A) 2/3
+  * B) 11/3
+  * C) 2/7
+  * D) 1/9
 
-Options:
-- u + iv
-- v - u
-- u + v
-- i(u + v)
-
-Answer: u + iv
-
-Explanation:
-
-A complex number is usually written as:
-
-a + ib
-
-Here,
-
-a = real part
-
-b = imaginary part
-
-So using u and v:
-
-u + iv
-
-Therefore, answer is u + iv.
+> **✅ Answer:** 11/3
+>
+> **🔍 Explanation:**
+> Let `x = 3.6666...`
+> We know that the repeating decimal `0.6666... = 2/3`.
+> Therefore, `3.6666... = 3 + 2/3 = 9/3 + 2/3 = 11/3`.
 
 ---
 
-## Q17. A number divisible by 60 is also divisible by which number?
+### 📝 Question 15: What is the smallest value that can replace `*` in `197*5462` to make it divisible by 9?
+* **Options:**
+  * A) 9
+  * B) 2
+  * C) 4
+  * D) 1
 
-Options:
-- 7
-- 11
-- 12
-- 13
-
-Answer: 12
-
-Calculation:
-
-60 = 2 × 2 × 3 × 5
-
-12 = 2 × 2 × 3
-
-Since 12 is a factor of 60, any number divisible by 60 is also divisible by 12.
-
-Therefore, answer is 12.
+> **✅ Answer:** 2
+>
+> **🔍 Explanation:**
+> For divisibility by 9, the sum of all digits must be a multiple of 9.
+> Sum of known digits: `1 + 9 + 7 + 5 + 4 + 6 + 2 = 34`.
+> We need `34 + *` to be a multiple of 9. The nearest multiple of 9 after 34 is 36.
+> `34 + * = 36` ➔ `* = 2`.
 
 ---
 
-## Q18. Which of the following numbers remains prime even after inversion?
+### 📝 Question 16: What is the commonly used form of a complex number?
+* **Options:**
+  * A) u + iv
+  * B) v - u
+  * C) u + v
+  * D) i(u + v)
 
-Options:
-- 31
-- 41
-- 51
-- None
-
-Answer: 31
-
-Calculation:
-
-31 reversed = 13
-
-31 is prime.
-
-13 is also prime.
-
-Check others:
-
-41 reversed = 14, not prime
-
-51 is not prime
-
-Therefore, 31 remains prime after inversion.
+> **✅ Answer:** u + iv
+>
+> **🔍 Explanation:**
+> A complex number is traditionally written in the standard form of `a + ib`, where `a` represents the real part and `b` represents the imaginary part. Using `u` and `v` as variables, this maps directly to the format `u + iv`.
 
 ---
 
-## Q19. The difference between 3 times and 7 times of a number is 36. What is that number?
+### 📝 Question 17: A number divisible by 60 is also divisible by which number?
+* **Options:**
+  * A) 7
+  * B) 11
+  * C) 12
+  * D) 13
 
-Options:
-- 9
-- 10
-- 8
-- 6
-
-Answer: 9
-
-Calculation:
-
-Let the number = x
-
-7 times = 7x
-
-3 times = 3x
-
-Difference:
-
-7x - 3x = 36
-
-4x = 36
-
-x = 36 / 4
-
-x = 9
-
-Therefore, the number is 9.
+> **✅ Answer:** 12
+>
+> **🔍 Explanation:**
+> Finding the prime factors of 60: `60 = 2 × 2 × 3 × 5`.
+> Finding the prime factors of 12: `12 = 2 × 2 × 3`.
+> Since all the prime factors of 12 are contained within the prime factors of 60, 12 is a factor of 60. Thus, any number divisible by 60 must also be perfectly divisible by 12.
 
 ---
 
-## Q20. The difference between the local value and the face value of 7 in 25974264 is:
+### 📝 Question 18: Which of the following numbers remains prime even after inversion?
+* **Options:**
+  * A) 31
+  * B) 41
+  * C) 51
+  * D) None
 
-Options:
-- 5149
-- 69993
-- 64851
-- None of these
-
-Answer: 69993
-
-Calculation:
-
-Number = 25974264
-
-Digit 7 is in the ten-thousands place.
-
-Local value / Place value of 7 = 70000
-
-Face value of 7 = 7
-
-Difference:
-
-70000 - 7 = 69993
-
-Therefore, answer is 69993.
+> **✅ Answer:** 31
+>
+> **🔍 Explanation:**
+> Let's test the inversion (reversing the digits) of the given options:
+> * A) 31 reversed is 13. Both 31 and 13 are prime numbers. (**Valid**)
+> * B) 41 reversed is 14. 14 is an even number, not prime.
+> * C) 51 is not a prime number to begin with (`3 × 17 = 51`).
 
 ---
 
-## Q21. Smallest whole number for x if 8x04752 is divisible by 11?
+### 📝 Question 19: The difference between 3 times and 7 times of a number is 36. What is that number?
+* **Options:**
+  * A) 9
+  * B) 10
+  * C) 8
+  * D) 6
 
-Options:
-- 2
-- 4
-- 6
-- 8
-
-Answer: 8
-
-Calculation:
-
-Number = 8x04752
-
-For divisibility by 11:
-
-Difference between sum of alternate digits must be 0 or multiple of 11.
-
-From left side:
-
-Odd place digits: 8, 0, 7, 2
-
-Sum = 8 + 0 + 7 + 2 = 17
-
-Even place digits: x, 4, 5
-
-Sum = x + 4 + 5 = x + 9
-
-Difference:
-
-17 - (x + 9)
-
-= 8 - x
-
-For divisibility by 11:
-
-8 - x = 0 or multiple of 11
-
-So,
-
-x = 8
-
-Therefore, smallest whole number x = 8.
+> **✅ Answer:** 9
+>
+> **🔍 Explanation:**
+> Let the unknown number be `x`.
+> Set up the algebraic equation: `7x - 3x = 36`
+> `4x = 36` ➔ `x = 36 / 4 = 9`.
 
 ---
 
-## Q22. Which of the following number is divisible by 30?
+### 📝 Question 20: The difference between the local value and the face value of 7 in the numeral 25974264 is:
+* **Options:**
+  * A) 5149
+  * B) 69993
+  * C) 64851
+  * D) None of these
 
-Options:
-- 9030
-- 9040
-- 9050
-- 9065
-
-Answer: 9030
-
-Calculation:
-
-30 = 2 × 3 × 5
-
-So number must be divisible by:
-
-2, 3, and 5.
-
-Check 9030:
-
-Last digit = 0, so divisible by 2 and 5.
-
-Sum of digits:
-
-9 + 0 + 3 + 0 = 12
-
-12 is divisible by 3.
-
-Therefore, 9030 is divisible by 30.
+> **✅ Answer:** 69993
+>
+> **🔍 Explanation:**
+> In the number `25974264`, the digit 7 is in the ten-thousands place.
+> * Local Value (Place Value) = `70,000`
+> * Face Value = `7` (The actual value of the digit itself)
+> 
+> Difference = `70,000 - 7 = 69993`.
 
 ---
 
-## Q23. Replace * with the smallest number so that 817*67 is divisible by 11.
+### 📝 Question 21: Smallest whole number for `x` if `8x04752` is divisible by 11?
+* **Options:**
+  * A) 2
+  * B) 4
+  * C) 6
+  * D) 8
 
-Options:
-- 2
-- 3
-- 1
-- 5
+> **✅ Answer:** 8
+>
+> **🔍 Explanation:**
+> For divisibility by 11, the difference between the sum of alternate digits must be 0 or a multiple of 11.
+> * Sum of digits at odd places (from left): `8 + 0 + 7 + 2 = 17`
+> * Sum of digits at even places (from left): `x + 4 + 5 = x + 9`
+> 
+> Difference: `17 - (x + 9) = 8 - x`.
+> For this difference to be 0 (or a multiple of 11), `8 - x = 0`, which means `x = 8`.
 
-Answer: 2
+---
 
-Calculation:
+### 📝 Question 22: Which of the following numbers is divisible by 30?
+* **Options:**
+  * A) 9030
+  * B) 9040
+  * C) 9050
+  * D) 9065
 
-Number = 817*67
+> **✅ Answer:** 9030
+>
+> **🔍 Explanation:**
+> `30 = 2 × 3 × 5`. Therefore, the number must be divisible by 2, 3, and 5.
+> * It must end in 0 (satisfying 2 and 5). This eliminates D.
+> * The sum of the digits must be divisible by 3.
+> Let's test the remaining options:
+> * 9030: Sum `9 + 0 + 3 + 0 = 12` (**Divisible by 3**)
+> * 9040: Sum `9 + 4 = 13` (Not divisible by 3)
+> * 9050: Sum `9 + 5 = 14` (Not divisible by 3)
 
-For divisibility by 11:
+---
 
-Difference between alternate digit sums must be 0 or multiple of 11.
+### 📝 Question 23: Replace `*` with the smallest number so that `817*67` is divisible by 11.
+* **Options:**
+  * A) 2
+  * B) 3
+  * C) 1
+  * D) 5
 
-Odd place digits:
+> **✅ Answer:** 2
+>
+> **🔍 Explanation:**
+> Applying the divisibility rule for 11:
+> * Sum of odd place digits: `8 + 7 + 6 = 21`
+> * Sum of even place digits: `1 + * + 7 = 8 + *`
+> 
+> Difference = `21 - (8 + *) = 13 - *`.
+> We need this difference to be 0 or a multiple of 11 (like 11, 22). 
+> Let's set it to 11 to find the smallest digit: `13 - * = 11` ➔ `* = 2`.
 
-8, 7, 6
+---
 
-Sum = 8 + 7 + 6 = 21
+## 🎯 Purpose
 
-Even place digits:
+These notes are part of my **Data Analyst Journey** repository where I document my learning progress, aptitude preparation, and problem-solving practice.
 
-1, *, 7
+## 👨‍💻 Repository Owner
 
-Sum = 1 + * + 7 = 8 + *
+**Bhuvan Teki**
 
-Difference:
+* **GitHub:** https://github.com/bhuvan-teki/
+* **LinkedIn:** https://www.linkedin.com/in/bhuvanteki/
 
-21 - (8 + *)
+## 🚀 Goal
 
-= 13 - *
+Become skilled in:
+- Quantitative Aptitude
+- Logical Reasoning
+- Data Analytics
+- Problem Solving
 
-Now check options.
-
-If * = 2:
-
-13 - 2 = 11
-
-11 is divisible by 11.
-
-Therefore, smallest value is 2.
+through consistent practice, continuous learning, and logical application.
