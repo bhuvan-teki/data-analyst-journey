@@ -13,10 +13,18 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** Any odd natural number
 >
-> **🔍 Explanation:**
-> Since `16n` is always an even number, `(-1)^(16n) = 1`.
-> Substituting this into the equation: `(-1)^n + 1 = 0` ➔ `(-1)^n = -1`.
-> This condition is satisfied only when `n` is an odd number. Therefore, `n` can be any odd natural number.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Analyze the second term, `(-1)^(16n)`.
+> * Since `n` is a natural number, `16n` will always result in an **even** number.
+> * Any negative base raised to an even power becomes positive: `(-1)^(even) = 1`.
+> 
+> **Step 2:** Substitute this back into the original equation.
+> * `(-1)^n + 1 = 0`
+> * `(-1)^n = -1`
+> 
+> **Step 3:** Determine `n`.
+> * A negative base raised to a power results in a negative number *only* if the power is **odd**.
+> * Therefore, `n` must be an odd natural number.
 
 ---
 
@@ -29,11 +37,14 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 2
 >
-> **🔍 Explanation:**
-> According to the divisibility rule for 4, we only need to check the last two digits.
-> The last two digits are `22`. 
-> `22 ÷ 4 = 5` with a remainder of `2`. 
-> Therefore, 89122 gives a remainder of 2 when divided by 4.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Apply the divisibility rule for 4 (only the last two digits matter).
+> * Target digits = `22`.
+> 
+> **Step 2:** Perform the division.
+> * `22 ÷ 4 = 5` with a remainder of `2`.
+> 
+> **Conclusion:** The entire number 89122 will leave a remainder of 2 when divided by 4.
 
 ---
 
@@ -46,17 +57,21 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 3, 0
 >
-> **🔍 Explanation:**
-> * **Divisibility by 10:** The last digit must be 0. So, `D = 0`. The number becomes `C4095300`.
-> * **Divisibility by 12:** The number must be divisible by both 3 and 4.
->   * *Check 4:* The last two digits are `00`, which is divisible by 4.
->   * *Check 3:* The sum of the digits must be a multiple of 3.
->     Sum = `C + 4 + 0 + 9 + 5 + 3 + 0 + 0 = C + 21`
-> Let's test the options for the least value of C:
-> * `C = 3` ➔ 3 + 21 = 24 (Divisible by 3)
-> * `C = 4` ➔ 4 + 21 = 25 (Not divisible)
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Apply the divisibility rule for 10.
+> * A number is divisible by 10 only if its last digit is 0. 
+> * Therefore, **`D = 0`**. The number is now `C4095300`.
 > 
-> The least valid value is `C = 3`. Therefore, C = 3, D = 0.
+> **Step 2:** Apply the divisibility rule for 12 (must be divisible by both 3 and 4).
+> * **Check 4:** The last two digits are `00`. Zero is divisible by 4, so this condition is met.
+> * **Check 3:** The sum of all digits must be a multiple of 3.
+>   * `Sum = C + 4 + 0 + 9 + 5 + 3 + 0 + 0 = C + 21`
+> 
+> **Step 3:** Test options to find the *least* valid value for `C`.
+> * If `C = 3` ➔ `3 + 21 = 24` (24 is divisible by 3) ✅
+> * If `C = 4` ➔ `4 + 21 = 25` (Not divisible by 3) ❌
+> 
+> **Conclusion:** The least valid value is `C = 3`, making the pair `3, 0`.
 
 ---
 
@@ -69,8 +84,9 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** Lies between 0 to 1
 >
-> **🔍 Explanation:**
-> By definition, a proper fraction is one where the numerator is strictly less than the denominator (e.g., `2/5 = 0.4`). Because the numerator is smaller, the overall value will always be greater than 0 but strictly less than 1.
+> **🧮 Logic:**
+> * **Definition:** A proper fraction is a fraction where the Numerator is strictly less than the Denominator (`N < D`).
+> * **Calculation:** Because you are dividing a smaller number by a larger number (e.g., `2 ÷ 5 = 0.4`), the quotient will always be greater than 0 but less than 1.
 
 ---
 
@@ -83,13 +99,19 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 16
 >
-> **🔍 Explanation:**
-> Let the number of correct answers = `x`.
-> The number of wrong answers = `2x`.
-> Total attempted = 48.
-> `x + 2x = 48`
-> `3x = 48` ➔ `x = 16`. 
-> He solved 16 sums correctly.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Define variables.
+> * Let the number of correct sums = `x`
+> * Let the number of wrong sums = `2x` (twice as many)
+> 
+> **Step 2:** Set up the equation based on total attempts.
+> * `Correct + Wrong = Total Attempted`
+> * `x + 2x = 48`
+> 
+> **Step 3:** Solve for `x`.
+> * `3x = 48`
+> * `x = 48 / 3`
+> * **`x = 16`**
 
 ---
 
@@ -102,9 +124,12 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 12
 >
-> **🔍 Explanation:**
-> The prime numbers less than 40 are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37.
-> Counting them up gives a total of 12 prime numbers.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** List all prime numbers (numbers divisible only by 1 and themselves) up to 40.
+> * Range: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37.
+> 
+> **Step 2:** Count the sequence.
+> * Total count = 12 prime numbers.
 
 ---
 
@@ -117,11 +142,19 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** -1
 >
-> **🔍 Explanation:**
-> The powers of `i` repeat in cycles of 4:
-> `i^1 = i`, `i^2 = -1`, `i^3 = -i`, `i^4 = 1`.
-> Divide the power by 4 to find the position in the cycle: `14 ÷ 4 = 3` with a remainder of `2`.
-> Therefore, `i^14 = i^2`. Since `i^2 = -1`, the answer is -1.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Identify the cyclical nature of imaginary numbers (`i`).
+> * `i^1 = i`
+> * `i^2 = -1`
+> * `i^3 = -i`
+> * `i^4 = 1` (The cycle repeats every 4 powers).
+> 
+> **Step 2:** Divide the given power by 4 to find the remainder.
+> * `14 ÷ 4 = 3` with a **remainder of 2**.
+> 
+> **Step 3:** Map the remainder to the cycle.
+> * `i^14` is equivalent to `i^2`.
+> * Since `i^2 = -1`, the answer is -1.
 
 ---
 
@@ -134,9 +167,10 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 121
 >
-> **🔍 Explanation:**
-> A prime number has only two factors: 1 and itself. 
-> 121 can be factored as `11 × 11`. Because it has factors other than 1 and itself, 121 is a composite (non-prime) number.
+> **🧮 Step-by-Step Calculation:**
+> * **Test A (19):** Divisible only by 1, 19 (Prime)
+> * **Test B (29):** Divisible only by 1, 29 (Prime)
+> * **Test C (121):** `11 × 11 = 121`. Because it has factors other than 1 and itself, it is a composite (non-prime) number.
 
 ---
 
@@ -149,14 +183,12 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 100 : 99
 >
-> **🔍 Explanation:**
-> The total number of employees is the sum of the ratio components. We need to find the sum that results in a prime number less than 300.
-> * A) 61 + 58 = 119 (`7 × 17` - Not prime)
-> * B) 45 + 40 = 85 (`5 × 17` - Not prime)
-> * C) 100 + 99 = 199 (**Prime number**)
-> * D) 73 + 50 = 123 (`3 × 41` - Not prime)
-> 
-> Therefore, 100:99 is the only possible ratio.
+> **🧮 Step-by-Step Calculation:**
+> **Logic:** The total number of employees is the sum of the ratio units. We must find the sum that results in a prime number.
+> * Option A: `61 + 58 = 119` ➔ Divisible by 7 (`7 × 17`) ❌
+> * Option B: `45 + 40 = 85` ➔ Divisible by 5 (`5 × 17`) ❌
+> * Option C: `100 + 99 = 199` ➔ Only divisible by 1 and 199 (**Prime**) ✅
+> * Option D: `73 + 50 = 123` ➔ Divisible by 3 (`3 × 41`) ❌
 
 ---
 
@@ -169,12 +201,18 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 6
 >
-> **🔍 Explanation:**
-> For a number to be divisible by 72, it must be divisible by both 8 and 9 (since `8 × 9 = 72` and they are co-prime).
-> * **Divisibility by 8:** The last three digits (`73x`) must be divisible by 8. Let's test the options: `736 ÷ 8 = 92` (Divides exactly). `x = 6` works.
-> * **Divisibility by 9:** The sum of all digits must be divisible by 9. 
->   `4 + 2 + 5 + 7 + 3 + 6 = 27`, which is divisible by 9.
-> Therefore, `x = 6`.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Break down 72 into co-prime factors.
+> * `72 = 8 × 9`. The number must pass divisibility rules for both 8 and 9.
+> 
+> **Step 2:** Test for 8 (Last three digits `73x` must be divisible by 8).
+> * Let's test the options for `x`:
+>   * If `x = 6` ➔ `736 ÷ 8 = 92` (Exact division) ✅
+> 
+> **Step 3:** Verify with the rule for 9 (Sum of digits must be a multiple of 9).
+> * Insert `x = 6`: `425736`
+> * `Sum = 4 + 2 + 5 + 7 + 3 + 6 = 27`.
+> * `27 ÷ 9 = 3` (Exact division) ✅
 
 ---
 
@@ -187,10 +225,12 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 0
 >
-> **🔍 Explanation:**
-> According to the divisibility rule for 8, check the last three digits (`560`).
-> `560 ÷ 8 = 70` with a remainder of 0. 
-> Therefore, 4560 is perfectly divisible by 8, leaving a remainder of 0.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Apply the divisibility rule for 8 (check the last 3 digits).
+> * Target digits = `560`
+> 
+> **Step 2:** Divide by 8.
+> * `560 ÷ 8 = 70` exactly, with a remainder of `0`.
 
 ---
 
@@ -203,12 +243,12 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 4646652
 >
-> **🔍 Explanation:**
-> A number is divisible by 4 if its last two digits are divisible by 4.
-> * A) Ends in `52` ➔ `52 ÷ 4 = 13` (**Divisible**)
-> * B) Ends in `54` ➔ Not divisible by 4
-> * C) Ends in `54` ➔ Not divisible by 4
-> * D) Ends in `74` ➔ Not divisible by 4
+> **🧮 Step-by-Step Calculation:**
+> **Logic:** Apply the divisibility rule for 4 (check the last 2 digits of each option).
+> * A) `...52` ➔ `52 ÷ 4 = 13` (Divisible) ✅
+> * B) `...54` ➔ `54 ÷ 4 = 13.5` (Not Divisible) ❌
+> * C) `...54` ➔ `54 ÷ 4 = 13.5` (Not Divisible) ❌
+> * D) `...74` ➔ `74 ÷ 4 = 18.5` (Not Divisible) ❌
 
 ---
 
@@ -221,12 +261,12 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 1239
 >
-> **🔍 Explanation:**
-> A number is divisible by 3 if the sum of its digits is a multiple of 3.
-> * 1235: `1+2+3+5 = 11` (No)
-> * 1237: `1+2+3+7 = 13` (No)
-> * 1239: `1+2+3+9 = 15` (**Yes**, 15 is divisible by 3)
-> * 1241: `1+2+4+1 = 8` (No)
+> **🧮 Step-by-Step Calculation:**
+> **Logic:** Apply the divisibility rule for 3 (Sum of digits must be a multiple of 3).
+> * A) 1235 ➔ `1 + 2 + 3 + 5 = 11` (Not Divisible)
+> * B) 1237 ➔ `1 + 2 + 3 + 7 = 13` (Not Divisible)
+> * C) 1239 ➔ `1 + 2 + 3 + 9 = 15` ➔ `15 ÷ 3 = 5` (**Divisible**) ✅
+> * D) 1241 ➔ `1 + 2 + 4 + 1 = 8` (Not Divisible)
 
 ---
 
@@ -239,10 +279,16 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 11/3
 >
-> **🔍 Explanation:**
-> Let `x = 3.6666...`
-> We know that the repeating decimal `0.6666... = 2/3`.
-> Therefore, `3.6666... = 3 + 2/3 = 9/3 + 2/3 = 11/3`.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Separate the whole number from the repeating decimal.
+> * `3.6666... = 3 + 0.6666...`
+> 
+> **Step 2:** Convert the repeating decimal to a fraction.
+> * Standard repeating rule: `0.666... = 6/9 = 2/3`.
+> 
+> **Step 3:** Add the whole number and the fraction.
+> * `3 + 2/3`
+> * Convert to common denominator: `9/3 + 2/3 = 11/3`.
 
 ---
 
@@ -255,11 +301,17 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 2
 >
-> **🔍 Explanation:**
-> For divisibility by 9, the sum of all digits must be a multiple of 9.
-> Sum of known digits: `1 + 9 + 7 + 5 + 4 + 6 + 2 = 34`.
-> We need `34 + *` to be a multiple of 9. The nearest multiple of 9 after 34 is 36.
-> `34 + * = 36` ➔ `* = 2`.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Apply the divisibility rule for 9 (sum of digits).
+> * `Sum = 1 + 9 + 7 + * + 5 + 4 + 6 + 2`
+> * `Sum = 34 + *`
+> 
+> **Step 2:** Find the nearest multiple of 9 that is greater than or equal to 34.
+> * Multiples of 9: 9, 18, 27, **36**, 45.
+> 
+> **Step 3:** Solve for `*`.
+> * `34 + * = 36`
+> * `* = 36 - 34 = 2`
 
 ---
 
@@ -272,8 +324,10 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** u + iv
 >
-> **🔍 Explanation:**
-> A complex number is traditionally written in the standard form of `a + ib`, where `a` represents the real part and `b` represents the imaginary part. Using `u` and `v` as variables, this maps directly to the format `u + iv`.
+> **🧮 Logic:**
+> * A complex number consists of a real part and an imaginary part.
+> * The standard algebraic notation is `a + ib` (where `a` is real and `b` is imaginary).
+> * Substituting variables `a` and `b` with `u` and `v`, the correct formatting is **`u + iv`**.
 
 ---
 
@@ -286,10 +340,10 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 12
 >
-> **🔍 Explanation:**
-> Finding the prime factors of 60: `60 = 2 × 2 × 3 × 5`.
-> Finding the prime factors of 12: `12 = 2 × 2 × 3`.
-> Since all the prime factors of 12 are contained within the prime factors of 60, 12 is a factor of 60. Thus, any number divisible by 60 must also be perfectly divisible by 12.
+> **🧮 Step-by-Step Calculation:**
+> **Logic:** If `X` is divisible by `Y`, then `X` is also divisible by all the *factors* of `Y`.
+> * Let's find the factors of 60: 1, 2, 3, 4, 5, 6, 10, **12**, 15, 20, 30, 60.
+> * Looking at the options (7, 11, 12, 13), only **12** is a valid factor of 60.
 
 ---
 
@@ -302,11 +356,11 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 31
 >
-> **🔍 Explanation:**
-> Let's test the inversion (reversing the digits) of the given options:
-> * A) 31 reversed is 13. Both 31 and 13 are prime numbers. (**Valid**)
-> * B) 41 reversed is 14. 14 is an even number, not prime.
-> * C) 51 is not a prime number to begin with (`3 × 17 = 51`).
+> **🧮 Step-by-Step Calculation:**
+> **Logic:** Invert (reverse the digits) of each option and test for primality.
+> * Option A: `31` reversed is `13`. (Both 31 and 13 are prime). ✅
+> * Option B: `41` reversed is `14`. (14 is even, divisible by 2). ❌
+> * Option C: `51`. (Not prime to begin with, `17 × 3 = 51`). ❌
 
 ---
 
@@ -319,10 +373,14 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 9
 >
-> **🔍 Explanation:**
-> Let the unknown number be `x`.
-> Set up the algebraic equation: `7x - 3x = 36`
-> `4x = 36` ➔ `x = 36 / 4 = 9`.
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Translate the word problem into an algebraic equation. Let the number be `x`.
+> * `7x - 3x = 36`
+> 
+> **Step 2:** Solve for `x`.
+> * `4x = 36`
+> * `x = 36 / 4`
+> * **`x = 9`**
 
 ---
 
@@ -335,12 +393,17 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 69993
 >
-> **🔍 Explanation:**
-> In the number `25974264`, the digit 7 is in the ten-thousands place.
-> * Local Value (Place Value) = `70,000`
-> * Face Value = `7` (The actual value of the digit itself)
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Identify the Local Value (Place Value).
+> * In `25974264`, the `7` is in the ten-thousands place.
+> * Local Value = `70,000`.
 > 
-> Difference = `70,000 - 7 = 69993`.
+> **Step 2:** Identify the Face Value.
+> * The face value of a digit is just the digit itself.
+> * Face Value = `7`.
+> 
+> **Step 3:** Calculate the difference.
+> * `70,000 - 7 = 69,993`.
 
 ---
 
@@ -353,13 +416,16 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 8
 >
-> **🔍 Explanation:**
-> For divisibility by 11, the difference between the sum of alternate digits must be 0 or a multiple of 11.
-> * Sum of digits at odd places (from left): `8 + 0 + 7 + 2 = 17`
-> * Sum of digits at even places (from left): `x + 4 + 5 = x + 9`
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Apply the divisibility rule for 11. Find the sum of digits in odd and even places.
+> * Odd places (1st, 3rd, 5th, 7th): `8 + 0 + 7 + 2 = 17`.
+> * Even places (2nd, 4th, 6th): `x + 4 + 5 = x + 9`.
 > 
-> Difference: `17 - (x + 9) = 8 - x`.
-> For this difference to be 0 (or a multiple of 11), `8 - x = 0`, which means `x = 8`.
+> **Step 2:** Subtract the smaller sum from the larger sum.
+> * `Difference = 17 - (x + 9) = 8 - x`.
+> 
+> **Step 3:** For divisibility by 11, the difference must be `0` or a multiple of `11`.
+> * Set to 0: `8 - x = 0` ➔ `x = 8`.
 
 ---
 
@@ -372,14 +438,15 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 9030
 >
-> **🔍 Explanation:**
-> `30 = 2 × 3 × 5`. Therefore, the number must be divisible by 2, 3, and 5.
-> * It must end in 0 (satisfying 2 and 5). This eliminates D.
-> * The sum of the digits must be divisible by 3.
-> Let's test the remaining options:
-> * 9030: Sum `9 + 0 + 3 + 0 = 12` (**Divisible by 3**)
-> * 9040: Sum `9 + 4 = 13` (Not divisible by 3)
-> * 9050: Sum `9 + 5 = 14` (Not divisible by 3)
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Break 30 into co-prime factors (`30 = 3 × 10`). The number must be divisible by 3 and 10.
+> **Step 2:** Check for divisibility by 10 (must end in 0).
+> * Eliminates D (9065). Remaining: A, B, C.
+> 
+> **Step 3:** Check for divisibility by 3 (sum of digits).
+> * A) 9030 ➔ `9+0+3+0 = 12` (Divisible by 3) ✅
+> * B) 9040 ➔ `9+0+4+0 = 13` (Not Divisible) ❌
+> * C) 9050 ➔ `9+0+5+0 = 14` (Not Divisible) ❌
 
 ---
 
@@ -392,14 +459,17 @@ This document contains a structured log of my daily problem-solving practice, fo
 
 > **✅ Answer:** 2
 >
-> **🔍 Explanation:**
-> Applying the divisibility rule for 11:
-> * Sum of odd place digits: `8 + 7 + 6 = 21`
-> * Sum of even place digits: `1 + * + 7 = 8 + *`
+> **🧮 Step-by-Step Calculation:**
+> **Step 1:** Apply the divisibility rule for 11.
+> * Sum of odd places: `8 + 7 + 6 = 21`
+> * Sum of even places: `1 + * + 7 = 8 + *`
 > 
-> Difference = `21 - (8 + *) = 13 - *`.
-> We need this difference to be 0 or a multiple of 11 (like 11, 22). 
-> Let's set it to 11 to find the smallest digit: `13 - * = 11` ➔ `* = 2`.
+> **Step 2:** Find the difference.
+> * `Difference = 21 - (8 + *) = 13 - *`
+> 
+> **Step 3:** Set the difference to a multiple of 11 (like 0, 11, 22).
+> * Since `*` must be a positive single digit, `13 - *` cannot be 0 (as `*` would be 13).
+> * Set difference to 11: `13 - * = 11` ➔ `* = 2`.
 
 ---
 
