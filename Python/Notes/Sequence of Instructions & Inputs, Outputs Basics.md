@@ -1,8 +1,9 @@
+# Sequence of Instructions & Input/Output Basics
+
+**Date:** June 4, 2026  
+**Module:** Python Fundamentals
 
 ````md
-# Sequence of Instructions & Input Output Basics
-
-## Sequence of Instructions
 
 A program is a sequence of instructions given to a computer.
 
@@ -335,7 +336,7 @@ i = 3
 
 There is no index `4`.
 
-## Key Concepts Learned
+## 🎯 Key Concepts Mastered Today
 
 * Program
 * Sequence of instructions
@@ -355,3 +356,11 @@ There is no index `4`.
 * IndentationError
 * IndexError
 
+👨‍💻 Repository Owner
+Bhuvan Teki
+
+GitHub: https://github.com/bhuvan-teki/
+
+LinkedIn: https://www.linkedin.com/in/bhuvanteki/
+
+Data Analyst Journey - Documenting my learning progress, logic implementation, and technical growth step-by-step.
